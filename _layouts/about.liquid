@@ -31,7 +31,6 @@ layout: default
             {% assign profile_hover_image_path = page.profile.hover_image | prepend: 'assets/img/' %}
             <div class="profile-img-hover">
               {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
-              {% include figure.liquid loading="eager" path=profile_hover_image_path class=profile_image_class sizes=sizes alt=page.profile.hover_image cache_bust=true %}
             </div>
           {% else %}
             {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
