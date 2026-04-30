@@ -6,7 +6,8 @@ subtitle: CSE PhD at The Ohio State University
 
 profile:
   align: right
-  image: headshot.png
+  image: head_front.png
+  hover_image: head_side.png
   image_circular: false
   more_info: >
     Contact: peng.1007@osu.edu

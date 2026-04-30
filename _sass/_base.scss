@@ -1417,3 +1417,33 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+
+.profile-img-hover {
+  position: relative;
+}
+
+.profile-img-hover figure {
+  margin: 0;
+}
+
+.profile-img-hover figure:nth-child(2) {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0s ease, transform 0s ease;
+}
+
+.profile-img-hover figure:nth-child(1) {
+  transition: opacity 0s ease, transform 0s ease;
+}
+
+.profile-img-hover:hover figure:nth-child(2) {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.profile-img-hover:hover figure:nth-child(1) {
+  opacity: 0;
+  transform: scale(1);
+}
