@@ -8,7 +8,10 @@
   year={2025},
   selected={true},
   abbr={EMNLP},
+  arxiv={509.00691},
   pdf={https://aclanthology.org/2025.blackboxnlp-1.1.pdf},
+  abstract={Sparse autoencoders (SAEs) are a promising approach for uncovering interpretable features in large language models (LLMs). While several automated evaluation methods exist for SAEs, most rely on external LLMs. In this work, we introduce CE-Bench, a novel and lightweight contrastive evaluation benchmark for sparse autoencoders, built on a curated dataset of contrastive story pairs. We conduct comprehensive evaluation studies to validate the effectiveness of our approach. Our results show that CE-Bench reliably measures the interpretability of sparse autoencoders and aligns well with existing benchmarks without requiring an external LLM judge, achieving over 70% Spearman correlation with results in SAEBench. The official implementation and evaluation dataset are open-sourced and publicly available.},
+  code={https://github.com/Yusen-Peng/CE-Bench},
   preview={CE-Bench.png}
 }
 
@@ -19,7 +22,10 @@
   year={2026},
   selected={true},
   abbr={ICPR},
+  arxiv={2509.00692},
   pdf={https://arxiv.org/pdf/2509.00692},
+  code={https://github.com/Yusen-Peng/CascadeFormer},
+  abstract={Skeleton-based human action recognition leverages sequences of human joint coordinates to identify actions performed in videos. Owing to the intrinsic spatiotemporal structure of skeleton data, Graph Convolutional Networks (GCNs) have been the dominant architecture in this field. However, recent advances in transformer models and masked pretraining frameworks open new avenues for representation learning. In this work, we propose CascadeFormer, a family of two-stage cascading transformers for skeleton-based human action recognition. Our framework consists of a masked pretraining stage to learn generalizable skeleton representations, followed by a cascading fine-tuning stage for action classification. We evaluate CascadeFormer across three benchmark datasets—Penn Action, N-UCLA, and NTU RGB+D 60—achieving competitive performance on all tasks. We open source our code at https://github.com/Yusen-Peng/CascadeFormer and release model checkpoints at https://huggingface.co/YusenPeng/CascadeFormerCheckpoints.},
   preview={CascadeFormer.png}
 }
 
@@ -28,8 +34,10 @@
   author={Yusen Peng and Haoxuan Wang and Jiachen Tao and Yan Yan†},
   journal={Under Review (ACCV)},
   year={2026},
-  selected={true},
+  selected_sub={true},
   abbr={Under Review},
+  abstract={Recent feed-forward visual geometry models have demonstrated remarkable success in jointly predicting diverse geometric attributes --- including depth, camera pose, and point clouds --- within a single forward pass. Despite their strong performance, these models incur substantial computational cost: linear projections in both attention and MLP layers constitute the dominant bottleneck, accounting for the majority of FLOPs during inference. In this work, we revisit low-rank weight decomposition for visual geometry models via singular value decomposition (SVD), aiming to reduce computational complexity and accelerate inference. While SVD effectively reduces parameter count and FLOPs, we find that fixed-ratio compression is suboptimal, as the importance of singular values varies considerably across input samples. Motivated by this observation, we propose \textbf{SVD}, a training-free, data-adaptive compression framework for visual geometry models. SVD introduces an entropy-guided compression allocation strategy that adaptively decomposes linear layers into low-rank matrices, and a retention mapping module that assigns each input a discrete retention ratio under a predefined compute budget estimated on a calibration dataset. Extensive experiments demonstrate that SVD reduces inference cost by over 30% on both VGGT and Pi3, with significantly lower performance degradation compared to fixed-ratio compression baselines.},
+  code={https://github.com/Yusen-Peng/SVD3},
   preview={SVD.png}
 }
 
@@ -38,8 +46,9 @@
   author={Fan Yang and Yusen Peng and John Paparrizos†},
   journal={Under Review (NeurIPS D&B Track)},
   year={2026},
-  selected={true},
+  selected_sub={true},
   abbr={Under Review},
+  abstract={Time series, defined as sequences of ordered observations, have become ubiquitous across domains such as nature, industry, healthcare, and social processes. Among the core tasks in this field, time-series forecasting—using historical patterns to predict future outcomes—has gained significant attention due to its broad practical impact. Accordingly, numerous forecasting methods and evaluation benchmarks have been developed to track and drive progress. Despite decades of advances, existing evaluation frameworks still exhibit critical limitations that hinder a comprehensive understanding of model efficacy: (i) many empirical studies rely on homogeneous or imbalanced datasets that lack sufficient diversity or quality assurance to evaluate forecasting methods across dynamic environments and domains; (ii) many benchmarks focus on only a limited subset of forecasting methodologies; and (iii) existing studies often provide limited statistical and taxonomy-specific analysis, leading to potentially superficial interpretations of model performance based on aggregated metrics. To address these limitations, we introduce TSB-FCST, a billion-scale time-series forecasting benchmark curated with rigorous data cleaning and quality assurance for comprehensive and reliable evaluation. TSB-FCST provides a standardized evaluation of 100 algorithms, ranging from classical statistical and machine learning methods to deep learning-based and recently emerged foundation models. Our extensive evaluation reveals: (i) although Foundation Models (FMs) demonstrate strong generalist capabilities, classical statistical and machine learning methods continue to excel in specific application domains, underscoring the importance of traditional baselines and taxonomy-specific evaluation; (ii) the effectiveness of Channel-Dependent (CD) versus Channel-Independent (CI) architectures is closely tied to dataset characteristics, highlighting the need for appropriate and diverse large-scale benchmarks to verify algorithmic progress; and (iii) forecasting difficulty is jointly shaped by horizon length and temporal data patterns, suggesting that evaluation should move beyond the excessive pursuit of long-horizon accuracy and explicitly account for data-driven challenges. Finally, we release all source code and datasets to support reproducible comparison studies. In summary, TSB-FCST offers a rigorous roadmap for understanding recent developments and advancing reliable time-series forecasting research.},
   preview={TSB_FCST.png}
 }
 
@@ -48,7 +57,8 @@
   author={John Paparrizos† and Fan Yang and Yusen Peng and Tomasz Frelek and Frank Li and Qiao Xiao and Mark Kikta},
   journal={Under Review (JMLR)},
   year={2026},
-  selected={true},
+  selected_sub={true},
   abbr={Under Review},
+  abstract={We present \texttt{pytskit}, the most comprehensive Python library for time series analysis to date, expressly designed to address both the breadth and depth of the domain. \texttt{pytskit} is an actively evolving library that supports five core time series analysis tasks: classification, clustering, anomaly detection, forecasting, and similarity search, housing the current largest collection of time series algorithms. The library integrates a diverse collection of 272 algorithms, ranging from classical statistical methods to modern deep neural networks and recently emerging foundation models. It features a unified, \texttt{scikit-learn}-compatible API to ensure ease of use and simplify integration into existing data science workflows. Notably, this design serves a dual purpose: it not only provides practitioners with accessible model functionality but also enables researchers to conduct rigorous, comprehensive benchmark studies, overcoming common limitations in existing libraries, such as discontinued maintenance or insufficient flexibility for advanced research. \texttt{pytskit} is designed with minimal external dependencies, primarily relying on \texttt{scikit-learn}, \texttt{PyTorch}, and essential data manipulation packages. The library is available under the Apache-2.0 license at \href{https://github.com/thedatumorg/pytskit}{https://github.com/thedatumorg/pytskit}},
   preview={pytskit-architecture.png}
 }
