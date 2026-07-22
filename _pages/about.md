@@ -6,11 +6,12 @@ subtitle: CSE PhD at The Ohio State University
 
 profile:
   align: right
-  image: head_front.png
+  image: NYC_pic.png
   hover_image: head_side.png
   image_circular: false
   more_info: >
     Contact: peng.1007@osu.edu
+    Number: (380)-900-1923
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 selected_submissions: true
