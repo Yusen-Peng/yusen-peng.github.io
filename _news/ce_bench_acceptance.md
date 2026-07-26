@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-CE-Bench is accepted at EMNLP blackbox workshop 2025.
+CE-Bench is accepted to EMNLP blackbox workshop 2025.

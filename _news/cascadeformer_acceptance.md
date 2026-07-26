@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-CascadeFormer is accepted at ICPR 2026.
+CascadeFormer is accepted to ICPR 2026 - check out our poster in Lyon, France 🇫🇷!
