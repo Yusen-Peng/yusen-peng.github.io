@@ -15,6 +15,7 @@ profile:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 selected_submissions: true
+selected_projects: true
 social: false # includes social icons at the bottom of the page
 
 announcements:
@@ -28,7 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Yusen Peng, an first-year CSE PhD student at The Ohio State University (OSU), starting in Fall 2026. I am incredibly fortunate to be advised by [Dr. Sachin Kumar](https://sites.google.com/view/sachinkumar). My current research interest is **efficient multimodal LLMs** - How can we compress tokens and/or model parameters in a principled way for multimodal LLMs in order to improve both training and inference efficiency?
+I am Yusen Peng, a first-year CSE PhD student at The Ohio State University (OSU), where I am incredibly fortunate to be advised by [Dr. Sachin Kumar](https://sites.google.com/view/sachinkumar). My current research interest is **efficient multimodal LLMs** - How can we compress tokens and/or model parameters in a principled way for multimodal LLMs in order to improve both training and inference efficiency?
 
 
-I earned my B.S. in Computer Science and Engineering from The Ohio State University with [Summa Cum Laude and Honor Research Distinction](https://advising.engineering.osu.edu/node/497/honors-engineering/engineering-honors-distinctions). Previously, I worked on a variety of AI/ML topics including time series analysis (pytskit, TSB-FCST), 3D vision (SVD^3), action recognition ([CascadeFormer](https://link.springer.com/chapter/10.1007/978-3-032-31583-0_28)), and mechanistic interpretability ([CE-Bench](https://aclanthology.org/2025.blackboxnlp-1.1)). You can check out my <a href="/assets/pdf/CV_May2026.pdf" target="_blank" rel="noopener noreferrer">CV</a> here for details.
+I earned my B.S. in Computer Science and Engineering from The Ohio State University with [Summa Cum Laude and Honor Research Distinction](https://advising.engineering.osu.edu/node/497/honors-engineering/engineering-honors-distinctions). Previously, I worked on a variety of AI/ML topics including time series analysis (pytskit in submission to JMLR, TSB-FCST in submission to SIGMOD), 3D vision (SVD^3 in submission to ACCV), action recognition ([CascadeFormer](https://link.springer.com/chapter/10.1007/978-3-032-31583-0_28), published at ICPR), and mechanistic interpretability ([CE-Bench](https://aclanthology.org/2025.blackboxnlp-1.1), published at EMNLP workshop). You can check out my <a href="/assets/pdf/PHD_CV_Aug2026.pdf" target="_blank" rel="noopener noreferrer">CV</a> here for details!

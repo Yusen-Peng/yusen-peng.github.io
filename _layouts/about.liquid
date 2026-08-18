@@ -75,6 +75,15 @@ layout: default
       </h2>
       {% include selected_submissions.liquid %}
     {% endif %}
+  
+    <!-- Selected projects -->
+    {% if page.selected_projects %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Ongoing Projects</a>
+      </h2>
+      {% include selected_projects.liquid %}
+    {% endif %}
+
 
 
     <!-- Social -->

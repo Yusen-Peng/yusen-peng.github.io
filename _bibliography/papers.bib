@@ -60,13 +60,11 @@
 @article{drip,
   title={Dynamic Image Tokenization for Efficient VLMs},
   author={Yusen Peng and Tejas Naik and Valentin Hofmann and Yuki M Asano and Sachin Kumar†},
-  journal={Ongoing work (accepted to COLM 2026 tokenization workshop)},
+  journal={accepted to COLM 2026 tokenization workshop; Ongoing work},
   year={2026},
-  selected_sub={true},
-  abbr={Under Review},
+  selected_pro={true},
+  abbr={Ongoing work},
   code={https://github.com/Yusen-Peng/DRIP},
-  pdf={DRIP_COLM_final_draft.pdf},
-  poster={DRIP COLM-W poster draft.pdf},
   abstract={Vision Language Models (VLMs) exhibit impressive cross-modal understanding, but the large quantity of image tokens results in substantial computational overhead. Prior efforts to reduce image tokens have mainly relied on training-free approaches, which do not properly align the LLM with the compressed visual representations at inference time. We observe that, after finetuning, even the straightforward baseline of merging a fixed number of tokens at a time can outperform current training-free approaches. However, fixed pooling cannot adjust to the specific content of an image, leading to degraded performance on complex OCR tasks that require fine-grained understanding. In this paper, we introduce DRIP, a straightforward approach for dynamically tokenizing images that uses a lightweight MLP-based boundary predictor to close this performance gap. Our findings indicate that dynamic image tokenization can restore accuracy on several OCR benchmarks while preserving performance on other coarse-grained tasks. We will release the source code and model checkpoints once the paper is accepted.},
   preview={DRIP-pipeline.png}
 }
