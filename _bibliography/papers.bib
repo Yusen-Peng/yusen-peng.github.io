@@ -31,10 +31,22 @@
   preview={CascadeFormer.png}
 }
 
+
+@article{drip,
+  title={VLVLM: Learning Variable Length Visual Tokens for Efficient Vision Language Models},
+  author={Yusen Peng and Tejas Naik and Valentin Hofmann and Yuki M Asano and Sachin Kumar†},
+  journal={Under Review; also accepted to COLM 2026 tokenization workshop},
+  year={2026},
+  selected_sub={true},
+  abbr={Under Review},
+  code={https://github.com/Yusen-Peng/VLVLM},
+  preview={DRIP-pipeline.png}
+}
+
 @article{SVD3,
   title={SVD^3: Singular Value Decomposition for Visual Geometry Model Compression},
   author={Yusen Peng and Haoxuan Wang and Jiachen Tao and Yan Yan†},
-  journal={Under Review (ACCV)},
+  journal={Under Review},
   year={2026},
   selected_sub={true},
   abbr={Under Review},
@@ -44,10 +56,11 @@
   preview={SVD.png}
 }
 
+
 @article{tsb-fcst,
-  title={TSB-FCST: A Billion-Scale Time-Series Forecasting Benchmark with Taxonomy-Specific Evaluation},
+  title={A Forecasting Odyssey: Charting the Billion-Scale Landscape of Time-Series Forecasting},
   author={Fan Yang and Yusen Peng and John Paparrizos†},
-  journal={Under Review (SIGMOD 2027)},
+  journal={Under Review},
   year={2026},
   selected_sub={true},
   abbr={Under Review},
@@ -57,27 +70,33 @@
 }
 
 
-@article{drip,
-  title={Dynamic Image Tokenization for Efficient VLMs},
-  author={Yusen Peng and Tejas Naik and Valentin Hofmann and Yuki M Asano and Sachin Kumar†},
-  journal={accepted to COLM 2026 tokenization workshop; Ongoing work},
-  year={2026},
-  selected_pro={true},
-  abbr={Ongoing work},
-  code={https://github.com/Yusen-Peng/DRIP},
-  abstract={Vision Language Models (VLMs) exhibit impressive cross-modal understanding, but the large quantity of image tokens results in substantial computational overhead. Prior efforts to reduce image tokens have mainly relied on training-free approaches, which do not properly align the LLM with the compressed visual representations at inference time. We observe that, after finetuning, even the straightforward baseline of merging a fixed number of tokens at a time can outperform current training-free approaches. However, fixed pooling cannot adjust to the specific content of an image, leading to degraded performance on complex OCR tasks that require fine-grained understanding. In this paper, we introduce DRIP, a straightforward approach for dynamically tokenizing images that uses a lightweight MLP-based boundary predictor to close this performance gap. Our findings indicate that dynamic image tokenization can restore accuracy on several OCR benchmarks while preserving performance on other coarse-grained tasks. We will release the source code and model checkpoints once the paper is accepted.},
-  preview={DRIP-pipeline.png}
-}
 
 
 @article{pytskit,
   title={pytskit: A Comprehensive Time Series Toolkit},
   author={John Paparrizos† and Fan Yang and Yusen Peng and Tomasz Frelek and Frank Li and Qiao Xiao and Mark Kikta},
-  journal={Under Review (JMLR)},
+  journal={Under Review},
   year={2026},
   selected_sub={true},
   abbr={Under Review},
   pdf={SIGNAL_JMLR.pdf},
   abstract={We present \texttt{pytskit}, the most comprehensive Python library for time series analysis to date, expressly designed to address both the breadth and depth of the domain. \texttt{pytskit} is an actively evolving library that supports five core time series analysis tasks: classification, clustering, anomaly detection, forecasting, and similarity search, housing the current largest collection of time series algorithms. The library integrates a diverse collection of 272 algorithms, ranging from classical statistical methods to modern deep neural networks and recently emerging foundation models. It features a unified, \texttt{scikit-learn}-compatible API to ensure ease of use and simplify integration into existing data science workflows. Notably, this design serves a dual purpose: it not only provides practitioners with accessible model functionality but also enables researchers to conduct rigorous, comprehensive benchmark studies, overcoming common limitations in existing libraries, such as discontinued maintenance or insufficient flexibility for advanced research. \texttt{pytskit} is designed with minimal external dependencies, primarily relying on \texttt{scikit-learn}, \texttt{PyTorch}, and essential data manipulation packages. The library is available under the Apache-2.0 license at \href{https://github.com/thedatumorg/pytskit}{https://github.com/thedatumorg/pytskit}},
   preview={pytskit-architecture.png}
+}
+
+
+@article{VTCNativeEval,
+  title={Visual Token Compression Methods for Native/encoder-free VLMs},
+  journal={Ongoing Work},
+  year={2026},
+  selected_pro={true},
+  abbr={Ongoing Work},
+}
+
+@article{Med,
+  title={RL on analyzing longitudinal medical images for VLMs},
+  journal={Ongoing Work},
+  year={2026},
+  selected_pro={true},
+  abbr={Ongoing Work},
 }
