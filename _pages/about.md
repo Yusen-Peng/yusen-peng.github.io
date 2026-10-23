@@ -6,7 +6,7 @@ subtitle: CSE PhD at The Ohio State University
 
 profile:
   align: right
-  image: Chicago_pic.png
+  image: home_photo.jpg
   hover_image: head_side.png
   image_circular: true
   # more_info: >
