@@ -2,21 +2,21 @@
 layout: about
 title: Home
 permalink: /
-subtitle: CSE PhD at The Ohio State University
+subtitle: CSE PhD at The Ohio State University | multimodal LLM, ML Efficiency
 
 profile:
   align: right
-  image: home_photo.jpg
+  image: SF_pic.jpg
   hover_image: head_side.png
   image_circular: true
-  # more_info: >
-  #   Contact: peng.1007@osu.edu
-  #   Number: (380)-900-1923
+  more_info: >
+    Contact: peng.1007@osu.edu
+    Number: (380)-900-1923
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 selected_submissions: true
 selected_projects: true
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
